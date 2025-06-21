@@ -1,0 +1,67 @@
+@import url(https://db.onlinewebfonts.com/c/c308bda9ff13c5239c99b48dc147bde0?family=SF+Pro+Rounded);@import url(https://db.onlinewebfonts.com/c/c308bda9ff13c5239c99b48dc147bde0?family=SF+Pro+Rounded);
+
+:root {
+    --font-medium: fontMedium;
+    --font-bold: fontSemiBold;
+    --font-heavy: fontHeavy;
+}
+
+@font-face {
+  font-family: fontMedium;
+  src: url("https://db.onlinewebfonts.com/t/bde89ab00cb34cc906059b3cbdd513dc.eot");
+  src: url("https://db.onlinewebfonts.com/t/bde89ab00cb34cc906059b3cbdd513dc.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/bde89ab00cb34cc906059b3cbdd513dc.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/bde89ab00cb34cc906059b3cbdd513dc.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/bde89ab00cb34cc906059b3cbdd513dc.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/bde89ab00cb34cc906059b3cbdd513dc.svg#SF Pro Rounded Medium")format("svg");
+}
+
+@font-face {
+  font-family: fontSemiBold;
+  src: url("https://db.onlinewebfonts.com/t/49cf9e586b122fd8b8cf67c4df697fb9.eot");
+  src: url("https://db.onlinewebfonts.com/t/49cf9e586b122fd8b8cf67c4df697fb9.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/49cf9e586b122fd8b8cf67c4df697fb9.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/49cf9e586b122fd8b8cf67c4df697fb9.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/49cf9e586b122fd8b8cf67c4df697fb9.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/49cf9e586b122fd8b8cf67c4df697fb9.svg#SF Pro Rounded Semibold")format("svg");
+}
+
+@font-face {
+  font-family: fontBold;
+  src: url("https://db.onlinewebfonts.com/t/bde89ab00cb34cc906059b3cbdd513dc.eot");
+  src: url("https://db.onlinewebfonts.com/t/bde89ab00cb34cc906059b3cbdd513dc.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/bde89ab00cb34cc906059b3cbdd513dc.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/bde89ab00cb34cc906059b3cbdd513dc.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/bde89ab00cb34cc906059b3cbdd513dc.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/bde89ab00cb34cc906059b3cbdd513dc.svg#SF Pro Rounded bold")format("svg");
+
+}
+
+@font-face {
+  font-family: fontHeavy;
+  src: url("https://db.onlinewebfonts.com/t/511031ed9122c8ea1450b18b876221fe.eot");
+  src: url("https://db.onlinewebfonts.com/t/511031ed9122c8ea1450b18b876221fe.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/511031ed9122c8ea1450b18b876221fe.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/511031ed9122c8ea1450b18b876221fe.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/511031ed9122c8ea1450b18b876221fe.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/511031ed9122c8ea1450b18b876221fe.svg#SF Pro Rounded Bold")format("svg");
+}
+
+* {
+  font-family: var(--font-medium);
+  font-size: .99em;
+}
+
+text {
+  font-family: var(--font-medium);
+  font-size: .9em;
+  letter-spacing: .1px;
+}
+
+.bold {
+  font-family: var(--font-bold);
+}
+
+.heavy {
+  font-family: var(--font-heavy);
+}

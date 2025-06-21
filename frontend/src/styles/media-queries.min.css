@@ -1,0 +1,77 @@
+@media screen and (max-width: 997px)  {
+  .card-details-container {
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+  }
+  .span-card-details {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 997px)  {
+  .link-hold {
+    display: none;
+  }
+  .foot-action {
+    visibility: visible;
+    transform: unset;
+    opacity: 1;
+  }
+  .app-view {
+    padding-bottom: 11em !important;
+  }
+}
+
+@media screen and (max-width: 700px)  {
+  .span-card-details {
+   flex-direction: column;
+   gap: 2em !important;
+  }
+}
+
+@media screen and (max-width: 607px) {
+  .dashboard-container {
+    padding: 0 2em 0 2em;
+  }
+  .dashboard {
+    width: 100%;
+  }
+
+  .dashboard .dash {
+   flex-direction: column;
+   width: 100%;
+  }
+
+  .dashboard .dashed {
+   width: 100%;
+   padding: 0 1em 0 1em !important;
+  }
+
+  .dashboard .dash .dasher {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 556px)  {
+  .navbar {
+    padding: unset;
+  }
+  .nav-scaled {
+    scale: .8;
+  }
+  .nav-item-removed {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 530px)  {
+  .themed-text {
+    font-size: 14vmin !important;
+  }
+}
+
+@media screen and (max-width: 742px) {
+  .portal-span {
+    width: 25em !important;
+  }
+}

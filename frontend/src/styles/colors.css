@@ -1,0 +1,222 @@
+:root {
+  --col-white: #ffffff;
+  --col-light: #ffffff20;
+  --col-lighter: #ffffff13;
+  --col-theme: #058842;
+  --col-grey: #181818;
+  --col-dark: #151515;
+  --col-darker: #000000;
+  --col-red: #f53333;
+}
+
+body, html, #root {
+  background: #000;
+  color: #ffffffc8;
+}
+
+.blur {
+  backdrop-filter: blur(1em);
+  -webkit-backdrop-filter: blur(1em);
+}
+
+.col-white {
+  color: var(--col-white);
+}
+
+.col-white-hover:hover text {
+  color: var(--col-white);
+}
+
+.col-danger {
+  color: var(--col-red);
+}
+
+.col-green {
+  color: var(--col-theme);
+}
+
+.col-dark {
+  color: var(--col-dark);
+}
+
+.col-darker {
+  color: var(--col-darker);
+}
+
+.bg-unset {
+  background: unset;
+}
+
+.bg-white {
+  background: var(--col-white);
+}
+
+.bg-grey {
+  background: var(--col-grey);
+}
+
+.bg-dark {
+  background: var(--col-dark);
+}
+
+.bg-darker {
+  background: var(--col-darker);
+}
+
+.bg-green {
+  background: #0cca64;
+}
+
+.bd-light {
+  box-shadow: 0 0 0 1px #ffffff20;
+}
+
+.bd-white-hover:hover {
+  background: unset;
+  box-shadow: 0 0 0 1px var(--col-white);
+}
+
+.bd-green-hover:hover {
+  background: unset;
+  box-shadow: 0 0 0 1px #0cca64;
+}
+
+.bg-unset {
+  background: unset;
+}
+
+.bd-light {
+  border-color: var(--col-light) !important;
+}
+
+.bd-lighter {
+  border-color: var(--col-lighter) !important;
+}
+
+.linear-gbg {
+  background: linear-gradient(to right, var(--col-theme), #2a8b01, #00a398);
+}
+
+.linear-gbg-hover:hover {
+  background: linear-gradient(to right, var(--col-theme), #2a8b01, #00a398);
+}
+
+.linear-gbg-hover:hover text {
+  color: var(--col-white);
+}
+
+.linear-green-dark {
+  background: linear-gradient(45deg, #131517, #1e2521) !important;
+}
+
+.linear-orange-dark {
+  background: linear-gradient(45deg, #131517, #242321) !important;
+}
+
+.gradient-white {
+  color: transparent;
+  background: linear-gradient(to right, #ffffff6f, #ffffffd4, var(--col-white), var(--col-white), #ffffffc3, #ffffff6f);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.navbar .nav-items {
+  background: var(--col-dark);
+}
+
+.foot-action {
+  background: var(--col-darker);
+  box-shadow: 0 0 5em 4em var(--col-darker);
+}
+
+.foot-action .nav-items {
+  background: var(--col-dark);
+}
+
+.radal-shadow {
+  box-shadow: 10em 0 20em 18em var(--col-theme);
+  animation: radal 15s infinite;
+}
+
+@keyframes radal {
+  50% {
+  width: 20%;
+  box-shadow: -10em 0 20em 18em var(--col-theme);
+  }
+}
+
+.radal-background {
+  box-shadow: 0 0 25em 4em var(--col-theme);
+}
+
+.radal-3d {
+  box-shadow: 0 1.5em 7em 3em var(--col-darker);
+}
+
+.neon-grid {
+  background-image: repeating-linear-gradient( to right, #00ff0060 0px, #00ff0060 1px, transparent 1px, transparent 80px), repeating-linear-gradient( to bottom, #00ff0060 0, #00ff0060 1.5px, transparent 1px, transparent 80px );
+  box-shadow: 0 0 60px rgba(0, 255, 0, 0.25);
+  mask-image: linear-gradient(to bottom, white 0%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, white 0%, transparent 100%);
+}
+
+.concave-top-bottom {
+  background: var(--col-dark);
+}
+
+.tag {
+  box-shadow: 0 0 0 .1px #969f956b;
+  color: transparent;
+  background-color: var(--col-white);
+  background-image: linear-gradient(90deg, #8e7cf0, #86c5ec, #b0f4b4);
+  -webkit-background-clip: text;
+}
+
+.strg-text, .mcrex-text {
+  filter: grayscale(5) contrast(5);
+}
+
+.floating-card {
+  background: #ffffff18;
+  border-top: 1.5px solid #ffffff15;
+  border-bottom: 1.5px solid #ffffff07;
+  border-left: 1.5px solid #ffffff07;
+  border-right: 1.5px solid #ffffff07;
+  box-shadow: 0 0 4px 0 #0000007e;
+  backdrop-filter: blur(1em);
+  -webkit-backdrop-filter: blur(1em);
+}
+
+.floating-card .card-floater {
+  box-shadow:  0 -3px 5px -2px #00000054;
+}
+
+.floating-card .card-floater .card-links {
+  box-shadow: 0 0 3px 0 #ffffff34;
+}
+
+.card-details-container .card-details {
+  border: 1.5px solid #ffffff11;
+}
+
+.portal-grid .line-grid-y {
+  border-right: 1.5px solid #15211a;
+}
+
+.portal-grid .line-grid-x {
+  border-bottom: 1.5px solid #15211a;
+}
+
+.portal-grid .portal-sh-eff {
+  background: #0F1113;
+  box-shadow: 0 0 10em 10em #0F1113;
+}
+
+.portal-grid .portal-glow-eff {
+  box-shadow: 0 0 20em 10em #273618ef;
+}
+
+.dashboard {
+  background: #101010;
+  border: 1px solid var(--col-grey);
+}
